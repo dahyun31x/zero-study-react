@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
+// hook method
 function App() {
   const [selectedTab, setSelectedTab] = useState(0);
   return (
