@@ -24,16 +24,16 @@ export default function App() {
         : selectedTab === 1 ? 
           <div className="second"> {/* 가로로 flex 꽉차게 배치 */}
             <h1>images</h1>
-            <div>
+            <div className="wrapper">
               <div>1</div>
               <div>2</div>
               <div>3</div>
             </div>
           </div> 
         : 
-        <div className="third">
+        <div className="third"> {/* 세로로 flex 꽉차게 배치 */}
           <h1>videos</h1>
-          <div>
+          <div className="wrapper">
               <div>1</div>
               <div>2</div>
               <div>3</div>

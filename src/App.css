@@ -41,10 +41,15 @@
   background-color: yellow;
 }
 
-.second > div, 
-.third > div {
+.wrapper > div {
   background-color: rosybrown;
+  flex: 1;
 }
+
+.second > .wrapper {
+  display: flex;
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {
