@@ -25,6 +25,28 @@
   background-color: royalblue;
 }
 
+.first {
+  width: 100%;
+  background-color: red;
+}
+
+.second {
+  width: 100%;
+  background-color: orange;
+}
+
+.third {
+  width: 100%;
+  height: 500px;
+  background-color: yellow;
+}
+
+.second > div, 
+.third > div {
+  background-color: rosybrown;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
